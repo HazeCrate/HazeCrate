@@ -1,1 +1,98 @@
 .vscode
+dist/
+*.egg-info/
+backup-20230218/compatibilitytool.vdf
+backup-20230218/game_select_menu.py
+backup-20230218/global_dosbox.conf
+backup-20230218/HazeCrate
+backup-20230218/parse_sierralauncher.py
+backup-20230218/toolmanifest.vdf
+backup-20230218/__pycache__/game_select_menu.cpython-310.pyc
+backup-20230218/__pycache__/parse_sierralauncher.cpython-310.pyc
+backup-20230218/__pycache__/SierraLauncher.cpython-310.pyc
+backup-20230218/configs/Betrayal Collection/AUTO_559640_31ea732a.conf
+backup-20230218/configs/Blake Stone Aliens of Gold/AUTO_358190_651797c8.conf
+backup-20230218/configs/Blake Stone Aliens of Gold/custom.conf
+backup-20230218/configs/Commander Keen/AUTO_9180_f128dae7.conf
+backup-20230218/configs/Dark Forces/AUTO_32400_6428a4f6.conf
+backup-20230218/configs/Dark Forces/AUTO_32400_7939c989.conf
+backup-20230218/configs/Doom 2/AUTO_2300_78d83900.conf
+backup-20230218/configs/Doom 2/AUTO_2300_923a08e9.conf
+backup-20230218/configs/Doom 2/AUTO_2300_a67d28e8.conf
+backup-20230218/configs/Doom 2/AUTO_2300_d9f69c25.conf
+backup-20230218/configs/Gabriel Knight/AUTO_495700_5df7b766.conf
+backup-20230218/configs/Gabriel Knight 2/AUTO_496760_02323e20.conf
+backup-20230218/configs/Harvester/AUTO_287020_1704d8ac.conf
+backup-20230218/configs/Harvester/AUTO_287020_34995f7d.conf
+backup-20230218/configs/Heretic Shadow of the Serpent Riders/AUTO_2390_85fce571.conf
+backup-20230218/configs/Hexen Deathkings of the Dark Citadel/AUTO_2370_e3cb9ee9.conf
+backup-20230218/configs/King's Quest Collection/AUTO_10100_7290eb25.conf
+backup-20230218/configs/King's Quest Collection/AUTO_10100_62990cb5.conf
+backup-20230218/configs/King's Quest Collection/AUTO_10100_3322925e.conf
+backup-20230218/configs/King's Quest Collection/AUTO_10100_bc84e73b.conf
+backup-20230218/configs/King's Quest Collection/AUTO_10100_d5575170.conf
+backup-20230218/configs/Master Levels of Doom/AUTO_9160_7621abca.conf
+backup-20230218/configs/Phantasmagoria/AUTO_501990_26fe16ae.conf
+backup-20230218/configs/Police Quest Collection/AUTO_494740_86d7552b.conf
+backup-20230218/configs/Quest for Glory Collection/AUTO_502750_84bfa26b.conf
+backup-20230218/configs/Quest for Glory Collection/AUTO_502750_985df378.conf
+backup-20230218/configs/STAR WARS Tie Fighter/AUTO_355250_c9da9f64.conf
+backup-20230218/configs/Shadow Warrior Classic/AUTO_225160_3c60f1dc.conf
+backup-20230218/configs/Space Quest Collection/AUTO_10110_34b37be8.conf
+backup-20230218/configs/Space Quest Collection/AUTO_10110_aa90ff50.conf
+backup-20230218/configs/Space Quest Collection/AUTO_10110_aeec5fc4.conf
+backup-20230218/configs/Spear of Destiny/AUTO_9000_a3ba1ca6.conf
+backup-20230218/configs/Star Control 3/AUTO_358930_3985013a.conf
+backup-20230218/configs/Star Control Classic/AUTO_358920_252f8af2.conf
+backup-20230218/configs/Star Wars - Rebel Assault 1 and 2/AUTO_456540_df5d2b48.conf
+backup-20230218/configs/Star Wars - Rebel Assault 1 and 2/AUTO_456540_ef8524c2.conf
+backup-20230218/configs/The Elder Scrolls Arena/AUTO_1812290_4cb3f433.conf
+backup-20230218/configs/The Elder Scrolls Daggerfall/AUTO_1812390_017872c8.conf
+backup-20230218/configs/Tomb Raider (I)/AUTO_224960_2943f474.conf
+backup-20230218/configs/Ultimate Doom/AUTO_2280_639fd6c0.conf
+backup-20230218/configs/Ultimate Doom/AUTO_2280_c87b984e.conf
+backup-20230218/configs/Wolfenstein 3D/AUTO_2270_bb29622c.conf
+backup-20230218/configs/X-COM Terror from the Deep/AUTO_7650_6428a4f6.conf
+backup-20230218/configs/XCom UFO Defense/AUTO_7760_6428a4f6.conf
+backup-20230218/configs/XCom UFO Defense/AUTO_7760_7939c989.conf
+backup-20230218/configs/Zork Anthology/AUTO_570580_964a9cba.conf
+backup-20230218/configs/Zork Anthology/AUTO_570580_156647b2.conf
+backup-20230218/configs/Zork Anthology/AUTO_570580_ccfee705.conf
+backup-20230218/configs/Zork Anthology/AUTO_570580_d267de3f.conf
+backup-20230218/configs/Zork Anthology/AUTO_570580_f77dac0f.conf
+backup-20230218/debug/debug_0.log
+backup-20230218/debug/debug_2270.log
+backup-20230218/debug/debug_2280.log
+backup-20230218/debug/debug_2300.log
+backup-20230218/debug/debug_2370.log
+backup-20230218/debug/debug_2390.log
+backup-20230218/debug/debug_7650.log
+backup-20230218/debug/debug_7760.log
+backup-20230218/debug/debug_9000.log
+backup-20230218/debug/debug_9160.log
+backup-20230218/debug/debug_9180.log
+backup-20230218/debug/debug_10100.log
+backup-20230218/debug/debug_10110.log
+backup-20230218/debug/debug_32400.log
+backup-20230218/debug/debug_224960.log
+backup-20230218/debug/debug_225160.log
+backup-20230218/debug/debug_238050.log
+backup-20230218/debug/debug_245390.log
+backup-20230218/debug/debug_283960.log
+backup-20230218/debug/debug_287020.log
+backup-20230218/debug/debug_355250.log
+backup-20230218/debug/debug_358190.log
+backup-20230218/debug/debug_358920.log
+backup-20230218/debug/debug_358930.log
+backup-20230218/debug/debug_456540.log
+backup-20230218/debug/debug_494740.log
+backup-20230218/debug/debug_495700.log
+backup-20230218/debug/debug_496760.log
+backup-20230218/debug/debug_501990.log
+backup-20230218/debug/debug_502750.log
+backup-20230218/debug/debug_559640.log
+backup-20230218/debug/debug_570580.log
+backup-20230218/debug/debug_1010750.log
+backup-20230218/debug/debug_1146370.log
+backup-20230218/debug/debug_1812290.log
+backup-20230218/debug/debug_1812390.log

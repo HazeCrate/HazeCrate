@@ -8,6 +8,7 @@ Launches DOS executable in DOSBox from Steam compatibility tool parameters.
 
 import sys
 import os
+import subprocess
 import configparser
 import shlex
 import argparse
@@ -20,7 +21,7 @@ import parse_sierralauncher
 # CONFIGURATION
 DEBUG = True
 DOSBOX_PATH = 'io.github.dosbox-staging'
-
+#
 
 # GLOBAL CONSTANTS
 HOME = os.path.expanduser("~")
@@ -338,7 +339,7 @@ def parse_args(args: list) -> argparse.Namespace:
     results = arg_parser.parse_args(args)
 
     if not results.conf:
-        results.conf = ['/dosbox.conf']
+        results.conf = ['dosbox.conf']
 
     return results
 
@@ -392,6 +393,9 @@ def new_dosbox_command(args: argparse.Namespace) -> str:
     command.append("-exit")
     # Create command string from array
     cmd_string = str(" ".join(command))
+
+    # test
+    cmd_string = f'flatpak run {DOSBOX_PATH}'
 
     return cmd_string
 
@@ -629,9 +633,12 @@ def main():
     args = parse_args(args)
 
     write_debug_line("Parsed args: " + str(args))
-    cmd = new_dosbox_command(args)
+    switch_runtime_script = os.getenv('STEAM_RUNTIME') + '/scripts/switch-runtime.sh --runtime="" '
+    cmd = switch_runtime_script + new_dosbox_command(args)
     write_debug_line('CMD: ' + cmd)
     os.system(cmd)
+    # subprocess.run(["kate", "test"])
+    write_debug_line('NOTHING HAPPENED')
 
 
 if __name__ == "__main__":

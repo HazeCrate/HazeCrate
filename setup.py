@@ -20,8 +20,5 @@ setup(
     url='https://github.com/HazeCrate/HazeCrate',
     author='Austin Warren',
     license='MIT',
-    entry_points={
-        'console_scripts': ['main'],
-    },
     include_package_data=True,
     )
